@@ -14,7 +14,7 @@
 	<BR>你给出的数是
 	<jsp:getProperty name="guess" property="guessNumber" />
 	<%
-		String str = response.encodeRedirectURL("guess.jsp");
+		String str = response.encodeRedirectURL("index.jsp");
 	%>
 	<Form action="<%=str%>" method=post>
 		<BR>再输入你的猜测 <Input type=text name="guessNumber"> <Input
